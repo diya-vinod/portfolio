@@ -160,10 +160,10 @@ animation: fadeIn 3s ease-in-out;
 
 }
 .skills {
-    width: 800px; /* Sets the width of the box */
+    width: 1000px; /* Sets the width of the box */
     height: 400px; /* Sets the height of the box */
     background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
-    padding: 20px; /* Adds padding inside the box */
+    padding: 60px; /* Adds padding inside the box */
     border-radius: 10px; /* Rounds the corners of the box */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
     margin: 0 auto; /* Centers the box horizontally */
