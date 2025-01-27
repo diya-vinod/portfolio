@@ -165,7 +165,8 @@ animation: fadeIn 3s ease-in-out;
     background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
     padding: 60px; /* Adds padding inside the box */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
-    margin: 120 auto; /* Centers the box horizontally */
+    margin: 0 auto; /* Centers the box horizontally */
+    margin-bottom: 120;
     text-align: left; /* Centers the text */
     animation: fadeIn 2s ease-in-out;
 }
