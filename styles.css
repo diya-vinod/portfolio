@@ -106,9 +106,9 @@ footer p {
     padding: 20px; /* Adds padding inside the box */
     border-radius: 10px; /* Rounds the corners of the box */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
-    max-width: 500px; /* Sets the maximum width of the box */
     margin: 0 auto; /* Centers the box horizontally */
     text-align: center; /* Centers the text */
+    animation: fadeIn 2s ease-in-out;
 }
 
   
