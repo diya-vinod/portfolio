@@ -102,7 +102,7 @@ footer p {
 .text-section {
     width: 400px; /* Sets the width of the box */
     height: 300px; /* Sets the height of the box */
-    background-color: white; /* White background */
+    background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
     padding: 20px; /* Adds padding inside the box */
     border-radius: 10px; /* Rounds the corners of the box */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
