@@ -166,7 +166,7 @@ animation: fadeIn 3s ease-in-out;
     padding: 60px; /* Adds padding inside the box */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
     margin: 0 auto; /* Centers the box horizontally */
-    text-align: center; /* Centers the text */
+    text-align: left; /* Centers the text */
     animation: fadeIn 2s ease-in-out;
 }
 
