@@ -82,6 +82,23 @@ nav ul li a:hover {
     background: #00f2fe;
     color: #fff;
 }
+/* Social Media Links */
+.social-links {
+    margin-top: 19px; /* Add space between button and icons */
+}
+
+.social-icon {
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #1e90ff; /* Change to blue on hover */
+}
+
 
 footer {
     text-align: center;
@@ -102,7 +119,7 @@ footer p {
 .text-section {
     width: 800px; /* Sets the width of the box */
     height: 400px; /* Sets the height of the box */
-    background-color: rgba(255, 255, 255, 0.6); /* White with 80% opacity */
+    background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
     padding: 20px; /* Adds padding inside the box */
     border-radius: 10px; /* Rounds the corners of the box */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
