@@ -161,7 +161,7 @@ animation: fadeIn 3s ease-in-out;
 }
 .skills {
     width: 1000px; /* Sets the width of the box */
-    height: 200px; /* Sets the height of the box */
+    height: 300px; /* Sets the height of the box */
     background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
     padding: 60px; /* Adds padding inside the box */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
@@ -169,6 +169,16 @@ animation: fadeIn 3s ease-in-out;
     text-align: left; /* Centers the text */
     animation: fadeIn 2s ease-in-out;
 }
+
+.skills h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #080808; /* Text color */
+    font-family: bodoni moda sc, serif;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
 
 @keyframes fadeIn {
     from {
