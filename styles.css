@@ -181,6 +181,12 @@ animation: fadeIn 3s ease-in-out;
 .skills .bold{
     font-weight: bold;
 }
+.skills p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #666;
+    animation: fadeIn 3s ease-in-out;
+}
 
 @keyframes fadeIn {
     from {
