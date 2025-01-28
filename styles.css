@@ -178,7 +178,9 @@ animation: fadeIn 3s ease-in-out;
     animation: fadeIn 2s ease-in-out;
 }
 
-
+.skills .bold{
+    font-weight: bold;
+}
 
 @keyframes fadeIn {
     from {
