@@ -195,7 +195,7 @@ animation: fadeIn 3s ease-in-out;
     color: #080808; /* Text color */
     font-family: bodoni moda sc, serif;
     animation: fadeIn 2s ease-in-out;
-    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .languages-section {
