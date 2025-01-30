@@ -231,6 +231,15 @@ ul ul {
 }
 
 /*projects*/
+.Subheading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2A88B1; /* Highlight color */
+    font-family: bodoni moda sc, serif;
+    animation: fadeIn 2s ease-in-out;
+    margin-left: 90px;
+    animation: fadeIn 2s ease-in-out;
+}
 .container {
     max-width: 800px;
     margin: 2em auto;
