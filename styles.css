@@ -189,7 +189,6 @@ animation: fadeIn 3s ease-in-out;
 }
 ul ul {
     margin-left: 20px; /* Adjust spacing as desired */
-    color: #666; /* Text color */
   }
 /*languages section*/
 
@@ -199,7 +198,7 @@ ul ul {
     color: #080808; /* Text color */
     font-family: bodoni moda sc, serif;
     animation: fadeIn 2s ease-in-out;
-    margin-left: 180px;
+    margin-left: 160px;
     animation: fadeIn 2s ease-in-out;
 }
 
