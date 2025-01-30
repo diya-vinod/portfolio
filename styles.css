@@ -204,12 +204,14 @@ ul ul {
 
 .languages-section {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 5px;
     padding: 10px;
     max-width: 900px;
-    margin: 50 auto;
+    margin: 0 auto;
     animation: fadeIn 3s ease-in-out;
+    margin-bottom: 50px; /* Adds spacing below the section */
+
 }
 
 .language-box {
