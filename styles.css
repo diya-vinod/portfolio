@@ -189,6 +189,7 @@ animation: fadeIn 3s ease-in-out;
 }
 ul ul {
     margin-left: 20px; /* Adjust spacing as desired */
+    color: #666; /* Text color */
   }
 /*languages section*/
 
