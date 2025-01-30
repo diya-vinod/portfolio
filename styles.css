@@ -204,7 +204,7 @@ ul ul {
 
 .languages-section {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(172px, 1fr));
     gap: 5px;
     padding: 10px;
     max-width: 900px;
