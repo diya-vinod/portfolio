@@ -208,7 +208,7 @@ ul ul {
     gap: 5px;
     padding: 10px;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 20 auto;
     animation: fadeIn 3s ease-in-out;
     margin-bottom: 50px; /* Adds spacing below the section */
 
