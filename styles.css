@@ -268,12 +268,16 @@ ul ul {
     font-size: 0.9em;
 }
 
-.video {
-    margin: 2em 0;
+.video-section {
+    margin: 2rem 0;
     text-align: center;
-    background-color: #c8f7c5;
-    padding: 1em;
+}
+
+.video-section video {
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
