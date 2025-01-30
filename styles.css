@@ -230,6 +230,110 @@ ul ul {
     color: #4a90e2;
 }
 
+/*projects*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbe8d3;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #333;
+}
+
+.project {
+    margin-bottom: 2em;
+}
+
+.project h3 {
+    margin: 0 0 0.5em;
+    color: #444;
+}
+
+.project p {
+    margin: 0 0 1em;
+    color: #555;
+}
+
+.tags {
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: #e0f7fa;
+    color: #00796b;
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.video {
+    margin: 2em 0;
+    text-align: center;
+    background-color: #c8f7c5;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 2em;
+    color: #777;
+}
 
 @keyframes fadeIn {
     from {
