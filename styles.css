@@ -298,7 +298,12 @@ ul ul {
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+    height: 300px;
+    display: block;
+    margin: 0 auto; /* Center the embed element */
 }
+
 
 
 @keyframes fadeIn {
