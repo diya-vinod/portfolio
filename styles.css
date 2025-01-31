@@ -233,12 +233,15 @@ ul ul {
 /*projects*/
 .Subheading {
     font-size: 1rem;
-    margin-bottom: 20px;
     color: #080808; /* Highlight color */
     font-family: bodoni moda sc, serif;
     animation: fadeIn 2s ease-in-out;
-    margin-left: 90px;
-    animation: fadeIn 2s ease-in-out;
+    background: #4facfe;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .container {
     max-width: 800px;
