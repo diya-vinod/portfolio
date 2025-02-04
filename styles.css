@@ -309,20 +309,19 @@ ul ul {
     margin: 0 auto; /* Center the embed element */
 }
 
-.resume {
-    margin: 2rem 4rem;
-    text-align: center;
+.resume-container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
-.resume embed {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 70%;
-    height: 900px;
-    display: block;
-    margin: 0 auto; /* Center the embed element */
+iframe {
+    width: 100%;
+    height: 800px;
+    border: none;
 }
 
 
