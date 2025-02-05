@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.logo img {
+    height: 50px; /* Adjust size as needed */
+    width: auto;
+}
 
 body {
     font-family: 'Playfair Display', serif;
