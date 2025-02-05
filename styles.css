@@ -8,6 +8,7 @@
 .logo img {
     height: 170px; /* Adjust size as needed */
     width: auto;
+    margin: 0px 0px 0px 0px; /* Adjust margin as needed */
 }
 .logo {
     border: 2px solid red;
@@ -27,7 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px 50px;
+    padding: 0px 50px;
     background: rgb(254, 254, 254);
 }
 
