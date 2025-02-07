@@ -9,7 +9,7 @@ function plusSlides(n, slideshowId) {
 
 function showSlides(n, slideshowId) {
     let slideshow = document.getElementById(slideshowId);
-    let slides = slideshow.getElementsByClassName("slide");
+    let slides = slideshow.getElementsByClassName("slide fade");
 
     if (n > slides.length) { slideIndexes[slideshowId] = 1; }  // Loop back to first slide
     if (n < 1) { slideIndexes[slideshowId] = slides.length; }  // Loop back to last slide
