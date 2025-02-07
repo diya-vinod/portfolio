@@ -27,6 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let i = 0; i < slideshows.length; i++) {
         let slideshowId = slideshows[i].id;
         slideIndexes[slideshowId] = 1;  // Initialize slide index
-        showSlides(1, slideshowId);  // Display the first slide
+        showSlides(slideIndexes[slideshowId], slideshowId);  // Display the first slide
     }
 });
