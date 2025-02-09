@@ -266,6 +266,7 @@ ul ul {
 .project h3 {
     margin: 0 0 0.5em;
     color: #444;
+    font-size: 1.5rem;
 }
 
 .project p {
@@ -367,10 +368,7 @@ iframe {
     text-align: left;
     border-color: #ffffff;
 }
-.h3 {
-    font-size: 1.2rem;
-    animation: fadeIn 2s ease-in-out;
-}
+
 .card h3 {
     margin-top: 0;
 }
