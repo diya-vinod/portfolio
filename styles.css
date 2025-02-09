@@ -266,7 +266,6 @@ ul ul {
 .project h3 {
     margin: 0 0 0.5em;
     color: #444;
-    font-size: 1.5rem;
 }
 
 .project p {
@@ -371,6 +370,7 @@ iframe {
 
 .card h3 {
     margin-top: 0;
+    font-size: 0.8rem;
 }
 
 /* Navigation buttons */
