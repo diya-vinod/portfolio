@@ -361,7 +361,7 @@ iframe {
 
 /* Card styling */
 .card {
-    background: #ababf4f4;
+    background-color: #ababf4f4;
     padding: 20px;
     border-radius: 10px;
     text-align: left;
@@ -370,6 +370,7 @@ iframe {
 
 .card h3 {
     margin-top: 0;
+    font-size: 1rem;
 }
 
 /* Navigation buttons */
