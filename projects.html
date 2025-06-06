@@ -19,7 +19,6 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="resume.html">Resume</a></li>
             </ul>
         </nav>
     </header>
@@ -79,10 +78,76 @@
             </div>
         </div>
     </div>
+    <div class="container">
+  <div class="project">
+    <h3>Semantic Entropy & LLM Bias Detection</h3>
+    <div class="tags">
+      <span class="tag">Python</span>
+      <span class="tag">OpenAI API</span>
+      <span class="tag">NLP</span>
+      <span class="tag">Entropy</span>
+      <span class="tag">LLM Evaluation</span>
+    </div>
+    <div class="slideshow-container">
+      <div class="slide fade">
+        <div class="card">
+          <h3>📌 Project Overview</h3>
+          <p>💡 I investigated whether semantic entropy—a measure of output variability—can be used to detect bias in large language models like GPT-4o, Claude 3.7 Sonnet, and DeepSeek V3.</p>
+        </div>
+      </div>
+
+      <div class="slide fade">
+        <div class="card">
+          <h3>🎯 The Hypothesis</h3>
+          <ul>
+            <li>Past research showed semantic entropy helps detect hallucinations.</li>
+            <li>We hypothesized that controversial prompts would yield higher entropy due to model uncertainty or bias.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="slide fade">
+        <div class="card">
+          <h3>🧪 The Experiment</h3>
+          <ul>
+            <li>Used 10 prompts from the DELPHI dataset (5 controversial, 5 factual).</li>
+            <li>Collected multiple model completions using OpenAI and Anthropic APIs.</li>
+            <li>Calculated both naive entropy and semantic entropy per prompt.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="slide fade">
+        <div class="card">
+          <h3>📊 Key Findings</h3>
+          <ul>
+            <li>No consistent link between controversy and entropy.</li>
+            <li>Open-ended factual prompts (e.g., “Where are the best places to eat in Venice?”) produced higher semantic entropy.</li>
+            <li>Claude 3.7 Sonnet showed more varied responses overall.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="slide fade">
+        <div class="card">
+          <h3>🧠 Takeaways</h3>
+          <ul>
+            <li>Semantic entropy is useful for identifying hallucinations.</li>
+            <li>It is not a reliable standalone signal for detecting bias in modern LLMs.</li>
+            <li>Model architecture and response style significantly influence entropy scores.</li>
+          </ul>
+        </div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  </div>
+</div>
 
     <div class = "container">
         <div class="project">
-            <h3>Field Session Project</h3>
+            <h3>Capstone Project: Merchandise Sales & Inventory Dashboard</h3>
             <div class="tags">
                 <span class="tag">Python</span>
                 <span class="tag">Scikit-Learn</span>
@@ -181,7 +246,7 @@
     </section>
     <div class = "container">
         <div class="project">
-            <h3>Field Session Project</h3>
+            <h3>Breast Cancer Classification</h3>
             <div class="tags">
                 <span class="tag">R</span>
             </div>
