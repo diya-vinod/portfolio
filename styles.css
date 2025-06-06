@@ -286,6 +286,10 @@ ul ul {
     border-radius: 5px;
     font-size: 0.9em;
 }
+.github-link {
+    text-align: center;
+    margin: 20px 0;
+}
 
 .video-section {
     margin: 2rem 0;
